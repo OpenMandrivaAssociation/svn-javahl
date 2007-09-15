@@ -3,7 +3,7 @@
 
 Name:           svn-javahl
 Version:        1.4.2
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Java bindings for Subversion
 License:        BSD-style
 Group:          Development/Java
@@ -26,8 +26,6 @@ BuildRequires:  apr-devel >= 1.2.2
 BuildRequires:  apr-util-devel >= 1.2.2
 BuildRequires:  swig-devel >= 1.3.27
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 BuildRequires:  java-devel
