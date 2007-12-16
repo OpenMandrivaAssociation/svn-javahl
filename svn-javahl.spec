@@ -3,7 +3,7 @@
 
 Name:           svn-javahl
 Version:        1.4.2
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        Java bindings for Subversion
 License:        BSD-style
 Group:          Development/Java
@@ -30,7 +30,7 @@ BuildRequires:  java-gcj-compat-devel
 %else
 BuildRequires:  java-devel
 %endif
-BuildRequires:  jpackage-utils
+BuildRequires:  java-rpmbuild
 BuildRequires:  junit
 Provides:       java-subversion = %{version}-%{release}
 Obsoletes:      java-svn
