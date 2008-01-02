@@ -35,6 +35,7 @@ BuildRequires:  junit
 Provides:       java-subversion = %{version}-%{release}
 Obsoletes:      java-svn
 Provides:       java-svn = %{version}-%{release}
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 This package contains the files necessary to use the subversion
