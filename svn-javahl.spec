@@ -84,7 +84,9 @@ if [ -x %{_bindir}/apu-1-config ]; then APU=%{_bindir}/apu-1-config; fi
 %{make} javahl_javadir=%{_javadir}
 %{make} javahl javahl_javadir=%{_javadir}
 
-(cd subversion/bindings/java/javahl/src && %{__mkdir_p} ../javadoc && %{javadoc} -all -d ../javadoc org.tigris.subversion)
+pushd subversion/bindings/java/javahl/src
+%{__mkdir_p} ../javadoc && %{javadoc} -d ../javadoc org.tigris.subversion
+popd
 
 %install
 %{__rm} -rf %{buildroot}
