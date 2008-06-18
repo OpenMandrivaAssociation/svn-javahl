@@ -24,7 +24,7 @@ BuildRequires:  neon-devel >= 0.26
 BuildRequires:  apache-devel
 BuildRequires:  apr-devel >= 1.2.2
 BuildRequires:  apr-util-devel >= 1.2.2
-BuildRequires:  swig-devel >= 1.3.27
+BuildRequires:  swig >= 1.3.27
 %if %{gcj_support}
 BuildRequires:  java-gcj-compat-devel
 %else
