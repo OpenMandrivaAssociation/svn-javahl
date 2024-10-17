@@ -7,7 +7,7 @@ Release:        %mkrel 6
 Summary:        Java bindings for Subversion
 License:        BSD-style
 Group:          Development/Java
-URL:            http://subversion.tigris.org/
+URL:            https://subversion.tigris.org/
 Source0:        http://subversion.tigris.org/tarballs/subversion-%{version}.tar.bz2
 Source1:        http://subversion.tigris.org/downloads/subversion-%{version}.tar.bz2.asc
 Patch0:         subversion-1.1.3-java.patch
