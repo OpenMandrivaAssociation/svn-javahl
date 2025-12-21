@@ -12,6 +12,7 @@ Source0:        http://subversion.tigris.org/tarballs/subversion-%{version}.tar.
 Source1:        http://subversion.tigris.org/downloads/subversion-%{version}.tar.bz2.asc
 Patch0:         subversion-1.1.3-java.patch
 Patch1:         subversion-1.4.2-latest_neon_is_0.26.2.diff
+BuildRequires:	make
 BuildRequires:  autoconf >= 2.54
 BuildRequires:  chrpath
 BuildRequires:  db4-devel
