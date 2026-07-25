@@ -3,7 +3,7 @@
 
 Name:           svn-javahl
 Version:        1.4.2
-Release:        %mkrel 6
+Release:        7
 Summary:        Java bindings for Subversion
 License:        BSD-style
 Group:          Development/Java
